@@ -1,6 +1,6 @@
 # Machine Learning
-Support materials for Jupiter notebooks and Machine Learningi
----
+
+Support materials for Jupiter notebooks and Machine Learning
 
 # Docker
 
