@@ -39,3 +39,10 @@ As the message says, Copy the URL displayed at the end, and paste it in your bro
 
 
 > http://localhost:8888/?token=a80467a5585008cf82d894e1e2519a244eef4948c2651d66
+
+## Latex support
+If you want to add some Latex expression to the notebook, please refer to the following guide:
+http://muug.ca/mirror/ctan/obsolete/info/math/voss/mathmode/Mathmode.pdf
+
+The following online tool offers a playground to test mathematical expressions: 
+https://jsbin.com/supofocazu/
