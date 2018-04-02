@@ -4,6 +4,8 @@ Support materials for Jupiter notebooks and Machine Learning
 
 # Docker
 
+Install Docker version >= 18.03.0 from [here](https://docs.docker.com/release-notes/docker-ce/).
+
 We will be using the Jupyter Notebook from https://github.com/jupyter/docker-stacks using this image from Docker Hub:
 
 > https://hub.docker.com/r/jupyter/datascience-notebook/
@@ -39,6 +41,15 @@ As the message says, Copy the URL displayed at the end, and paste it in your bro
 
 
 > http://localhost:8888/?token=a80467a5585008cf82d894e1e2519a244eef4948c2651d66
+
+## Post-setup (0.20.dev0)
+
+- Open terminal
+- git clone https://github.com/scikit-learn/scikit-learn.git
+- cd scikit-learn/
+- git checkout 4e87d93ce6fae938aa366742732b59a730724c73
+- python setup.py develop
+- pip install -e .
 
 ## Latex support
 If you want to add some Latex expression to the notebook, please refer to the following guide:
